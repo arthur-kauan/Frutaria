@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carrinho - Frutaria Domareski</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🍎 Frutaria <span>Domareski</span></div>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="#">Produtos</a>
+        <a href="#">Login</a>
+        <a href="carrinho.html">🛒 Carrinho</a>
+    </nav>
+</header>
+
+<section class="titulo-carrinho">
+    <h1>🛒 Seu Carrinho</h1>
+</section>
+
+<main class="carrinho-container">
+
+    <div class="lista-carrinho">
+
+        <div class="item-carrinho">
+            <img src="imagens/morango.jpg">
+            <div class="info-produto">
+                <h3>Morango Especial</h3>
+                <p>Bandeja 250g</p>
+            </div>
+
+            <input type="number" value="1" min="1" class="quantidade">
+
+            <span class="preco">R$ 12,90</span>
+
+            <button class="remover">❌</button>
+        </div>
+
+
+        <div class="item-carrinho">
+            <img src="imagens/BananaNanica.jpg">
+            <div class="info-produto">
+                <h3>Banana Nanica</h3>
+                <p>Dúzia selecionada</p>
+            </div>
+
+            <input type="number" value="1" min="1" class="quantidade">
+
+            <span class="preco">R$ 6,50</span>
+
+            <button class="remover">❌</button>
+        </div>
+
+    </div>
+
+
+    <div class="resumo-compra">
+
+        <h2>Resumo</h2>
+
+        <div class="linha-resumo">
+            <span>Subtotal</span>
+            <span>R$ 19,40</span>
+        </div>
+
+        <div class="linha-resumo">
+            <span>Entrega</span>
+            <span>R$ 5,00</span>
+        </div>
+
+        <div class="linha-total">
+            <span>Total</span>
+            <span>R$ 24,40</span>
+        </div>
+
+        <button class="btn-finalizar">Finalizar Compra</button>
+
+    </div>
+
+</main>
+
+</body>
+</html>
